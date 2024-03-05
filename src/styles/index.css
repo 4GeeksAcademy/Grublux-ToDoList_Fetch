@@ -10,21 +10,54 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* .nukeButton {
+    width: 269px;
+} */
+
+.deleteAll {
+    display: inline;
+    background-color: transparent;
+    border: none;
+    float: right;
+    color: rgba(128, 128, 128, 0.21);
+    
+}
+
+.deleteAll:hover {
+    display: inline;
+    color: rgba(255, 0, 0, 0.89);
+    
+}
+
+
 .myButton {
     display: inline;
     background-color: transparent;
     border: none;
     float: right;
-    color: transparent;
-    width: 99px;
-    height: 33px;
+    color: rgba(128, 128, 128, 0.21);
+    
 }
 
 .myButton:hover {
     display: inline;
-    color: gray;
-    width: 99px;
-    height: 33px;
+    color: rgba(255, 0, 0, 0.89);
+    
+}
+
+.doneButton {
+    display: inline;
+    background-color: transparent;
+    border: none;
+    float: right;
+    color: rgba(128, 128, 128, 0.21);
+    
+}
+
+.doneButton:hover {
+    display: inline;
+    color: rgba(0, 128, 0, 0.89);
+    
 }
 
 .myInput {
